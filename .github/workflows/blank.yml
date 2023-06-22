@@ -42,7 +42,7 @@ jobs:
           cd openvmi.github.io
           git remote rm origin
           git remote add origin https://zhoukaisspu:${{ secrets.DEPLOYTOKEN }}@github.com/openvmi/openvmi.github.io.git
-          mkdocs gh-deploy --config-file ../vmilab.com/mkdocs.yml --remote-branch master
+          mkdocs gh-deploy --config-file ../vmilabs.com/mkdocs.yml --remote-branch master
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
