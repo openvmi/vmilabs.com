@@ -3,7 +3,6 @@ site_name: vmilabs
 
 # Set the name of author. This will add a meta data tag to the generated HTML header
 site_author: Kai.Zhou
-repo_url: https://github.com/openvmi/vmilabs.com
 copyright: 'Copyright &copy; 2019 - 2023 Kai.Zhou'
 theme:
   language: 'zh'
